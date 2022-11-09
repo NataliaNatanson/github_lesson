@@ -1,6 +1,6 @@
 statis = []
 alf = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюяабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
-key = int(input('Введите шаг шифрования: '))
+key = 3
 res =''
 with open('ex.txt', 'r', encoding='ANSI') as f:
     for  i in f.read():
