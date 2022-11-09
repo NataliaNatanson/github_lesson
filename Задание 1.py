@@ -1,6 +1,7 @@
 statis = []
 alf = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюяабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 key = 3
+ex = 'hi'
 res =''
 with open('ex.txt', 'r', encoding='ANSI') as f:
     for  i in f.read():
