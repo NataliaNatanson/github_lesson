@@ -1,4 +1,7 @@
 print('Hello word!')
 
-name = input('Введиете ваше имя: ')
-print(f'Hello, {name}!')
+name = input('Введите ваше имя: ')
+print('************************************************')
+second_name = input('Введите вашу фамилию: ')
+
+print(f'Hello, {name} {second_name}!')
